@@ -1,5 +1,13 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 
+/**
+ * Kohana wrapper for the working with the Tumblr API
+ *
+ * @package	Kerkness
+ * @category   Tumblr
+ * @author	 Ryan Mayberry
+ * @copyright  (c) 2009-2012 Mayberry Holdings Ltd
+ */
 class Kohana_tumblr
 {
 	public $attributes = array();
